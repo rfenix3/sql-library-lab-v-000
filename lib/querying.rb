@@ -22,7 +22,7 @@ def select_name_and_series_subgenres_of_authors
 end
 
 def select_series_title_with_most_human_characters
-  "Select series_id id, count(species) count
+  "Select count(species) count
   from characters 
   WHERE characters.species = 'human'
   GROUP BY id
