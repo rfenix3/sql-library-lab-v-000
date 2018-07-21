@@ -22,8 +22,8 @@ VALUES
 ("Luke Skywalker", "Human", "Nooo! You are not my father!", 2, 1), 
 ("Obi-wan", "Human", "He is ready", 2, 1), 
 ("Wicket", "Ewok", "Trrii Wok Wok Wok", 2, 1), 
-("Harry", "Human", "expecto patronum", 2, 1), 
-("Hermione", "Human", "Trrii Wok Wok Wok", 2, 1), 
-("Peter Pettigrew", "Rodent", "Trrii Wok Wok Wok", 2, 1), 
-("Sirious Black", "Werewolf", "Trrii Wok Wok Wok", 2, 1);
+("Harry", "Human", "expecto patronum!", 1, 2), 
+("Hermione", "Human", "Leviosa", 1, 2), 
+("Peter Pettigrew", "Rodent", "Trrii Wok Wok Wok", 1, 2), 
+("Sirious Black", "Werewolf", "Trrii Wok Wok Wok", 1, 2);
 
