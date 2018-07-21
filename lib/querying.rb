@@ -9,7 +9,9 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "Write your SQL query here"
+  "select species, count(species) as count from characters
+  GROUP by count 
+  ORDER by count DESC LIMIT 1"
 end
 
 def select_name_and_series_subgenres_of_authors
