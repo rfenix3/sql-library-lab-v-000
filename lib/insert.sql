@@ -1,7 +1,7 @@
 INSERT into authors (name)
 VALUES ("George Lucas"), ("J. K. Rowling");
 
-INSERT into subgenre (name)
+INSERT into subgenres (name)
 VALUES ("Sci-Fi"),("Fantasy");
 
 INSERT into series (title, author_id, subgenre_id)
