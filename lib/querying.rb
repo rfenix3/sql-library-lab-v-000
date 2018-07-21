@@ -26,7 +26,7 @@ def select_series_title_with_most_human_characters
                           from characters 
                           WHERE characters.species = 'human'
                           GROUP BY series_id
-                          ORDER by series_id LIMIT 1)"
+                          ORDER by series_id LIMIT 1"
 
   # "Select series.title title, count(characters.species) count
   # from series
