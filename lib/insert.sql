@@ -24,6 +24,6 @@ VALUES
 ("Wicket", "Ewok", "Trrii Wok Wok Wok", 2, 1), 
 ("Harry", "Human", "expecto patronum!", 1, 2), 
 ("Hermione", "Human", "Leviosa", 1, 2), 
-("Peter Pettigrew", "Rodent", "Trrii Wok Wok Wok", 1, 2), 
+("Peter Pettigrew", "Rodent", "Squik! iiik!", 1, 2), 
 ("Sirious Black", "Werewolf", "Trrii Wok Wok Wok", 1, 2);
 
