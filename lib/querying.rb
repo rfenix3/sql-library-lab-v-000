@@ -34,11 +34,12 @@ def select_series_title_with_most_human_characters
   #           GROUP BY series_id
   #           ORDER by series_id LIMIT 1"
 
-  "Select series.title title, count(characters.species) count
+  "Select series.title title
   from series
   INNER JOIN characters ON series.id = characters.series_id
   WHERE characters.species = 'human'
-  GROUP BY title"
+  GROUP BY title
+  HAVING count(characters.species) = 3"
 
 end
 
