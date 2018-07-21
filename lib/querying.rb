@@ -23,9 +23,10 @@ end
 
 def select_series_title_with_most_human_characters
   "select series_id 
-  from characters WHERE
-  count(species) = 3
-  GROUP by series_id"
+  from characters 
+  where species = 'human'
+  GROUP by series_id 
+  having count(species) = 3"
   
   # "select count(species) 
   #           from characters 
