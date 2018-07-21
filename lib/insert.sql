@@ -25,5 +25,5 @@ VALUES
 ("Harry", "Human", "expecto patronum!", 1, 2), 
 ("Hermione", "Human", "Leviosa", 1, 2), 
 ("Peter Pettigrew", "Rodent", "Squeak! Squeak!", 1, 2), 
-("Sirious Black", "Werewolf", "Trrii Wok Wok Wok", 1, 2);
+("Sirious Black", "Werewolf", "Awoooo!!!", 1, 2);
 
